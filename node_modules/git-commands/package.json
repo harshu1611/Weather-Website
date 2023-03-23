@@ -1,0 +1,25 @@
+{
+  "name": "git-commands",
+  "version": "0.1.0",
+  "description": "Execute git command using Node.js",
+  "main": "src/git.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinning/git-commands.git"
+  },
+  "keywords": [
+    "node git",
+    "node-git",
+    "git-command",
+    "git-commands"
+  ],
+  "author": "gavinning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavinning/git-commands/issues"
+  },
+  "homepage": "https://github.com/gavinning/git-commands#readme"
+}
