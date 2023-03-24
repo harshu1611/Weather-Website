@@ -17,7 +17,7 @@ export default function weather(props) {
         <div className="row row-cols-1 row-cols-md-4 g-4" id="weatherCards">
   <div className="col">
     <div className="card-bs-card-color">
-      <img src="../temperature.gif" className="card-img-top" alt="..."/>
+      <img src="/Weather-Website/temperature.gif" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Temperature:</h5>
         <p className="card-text">{weather} °Celsius</p>
@@ -26,7 +26,7 @@ export default function weather(props) {
   </div>
   <div className="col">
     <div className="card-bs-card-color">
-      <img src="../feels.png" className="card-img-top" alt="..."/>
+      <img src="/Weather-Website/feels.png" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Feels Like</h5>
         <p className="card-text">{feels} °Celsius</p>
@@ -35,7 +35,7 @@ export default function weather(props) {
   </div>
   <div className="col">
     <div className="card-bs-card-color">
-      <img src="../minimum.gif" className="card-img-top" alt="..."/>
+      <img src="/Weather-Website/minimum.gif" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Minimum Temperature</h5>
         <p className="card-text">{min} °Celsius</p>
@@ -44,7 +44,7 @@ export default function weather(props) {
   </div>
   <div className="col">
     <div className="card-bs-card-color">
-      <img src="../maximum.gif" className="card-img-top" alt="..."/>
+      <img src="/Weather-Website/maximum.gif" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Maximum Temperature</h5>
         <p className="card-text">{max} °Celsius</p>
@@ -56,7 +56,7 @@ export default function weather(props) {
 <div className="row row-cols-1 row-cols-md-2 g-2" id="weatherCards2">
   <div className="col">
     <div className="card-bs-card-color-humidity">
-      <img src="../humidity.gif" className="card-img-top" alt="..."/>
+      <img src="/Weather-Website/humidity.gif" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Humidity:</h5>
         <p className="card-text">{humidity} %</p>
@@ -65,7 +65,7 @@ export default function weather(props) {
   </div>
   <div className="col">
     <div className="card-bs-card-color">
-      <img src="../wind.gif" className="card-img-top" alt="..."/>
+      <img src="/Weather-Website/wind.gif" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Wind Speed</h5>
         <p className="card-text">{wind} Km/h</p>
