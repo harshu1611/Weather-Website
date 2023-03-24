@@ -17,7 +17,7 @@ export default function weather(props) {
         <div className="row row-cols-1 row-cols-md-4 g-4" id="weatherCards">
   <div className="col">
     <div className="card-bs-card-color">
-      <img src="/public/temperature.gif" className="card-img-top" alt="..."/>
+      <img src="/Weather-Website/temperature.gif" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Temperature:</h5>
         <p className="card-text">{weather} °Celsius</p>
